@@ -1,0 +1,10 @@
+[package]
+name = "find-and-replace"
+version = "0.1.0"
+authors = ["Cecile Tonglet <cecile.tonglet@collibra.com>"]
+description = "Tool to find and replace, recursively in a directory using globs, file content using a regular expression"
+
+[dependencies]
+glob = "0.2"
+regex = "1"
+clap = "2.32"
